@@ -1,0 +1,75 @@
+{
+  "dataset": "Weather",
+  "csv_path": "/content/drive/.shortcut-targets-by-id/1M2PvL-4Tt5h70Xg_IYzTh3SNifk4sipt/Year1_PhD_Codes/02_EDBT/data/Other/weather/weather_cleaned.csv",
+  "csv_sha256": "6f7e2cb3e30f470b378b31f7658b981064d62de6e9856319f601b7ded0d3b6cb",
+  "feature_cols": [
+    "p (mbar)",
+    "T (degC)",
+    "Tpot (K)",
+    "Tdew (degC)",
+    "rh (%)",
+    "VPmax (mbar)",
+    "VPact (mbar)",
+    "VPdef (mbar)",
+    "sh (g/kg)",
+    "H2OC (mmol/mol)",
+    "rho (g/m**3)",
+    "wv (m/s)",
+    "max. wv (m/s)",
+    "wd (deg)",
+    "rain (mm)",
+    "raining (s)",
+    "SWDR (W/m\ufffd)",
+    "PAR (\ufffdmol/m\ufffd/s)",
+    "max. PAR (\ufffdmol/m\ufffd/s)",
+    "Tlog (degC)",
+    "OT"
+  ],
+  "target_col": "T (degC)",
+  "target_idx": 1,
+  "best_lr": 0.0003,
+  "selection_criterion": "original-scale validation MAE, then val RMSE, then scaled val L1",
+  "best_epoch": 11,
+  "best_val_loss_scaled": 0.13679998650496553,
+  "val_mae": 0.9078188121860175,
+  "val_rmse": 1.3339409158630096,
+  "configuration": {
+    "input_len": 288,
+    "horizon": 24,
+    "train_ratio": 0.5,
+    "val_ratio": 0.1,
+    "batch_size": 128,
+    "gru_hidden": 100,
+    "gru_layers": 2,
+    "gru_dropout": 0.0,
+    "gru_lrs": [
+      0.0001,
+      0.0003,
+      1e-05,
+      3e-05,
+      0.001,
+      0.003
+    ],
+    "gru_epochs": 80,
+    "patience": 10,
+    "min_delta": 1e-05,
+    "seed": 42,
+    "num_workers": 0,
+    "device": "cuda"
+  },
+  "train_range": [
+    0,
+    26352
+  ],
+  "val_range": [
+    26040,
+    31622
+  ],
+  "test_range": [
+    31310,
+    52704
+  ],
+  "train_windows": 26040,
+  "val_windows": 5270,
+  "test_windows": 21082
+}

@@ -1,0 +1,4 @@
+feature,granger_pvalue,ga_selected
+PRELIQ_Q,1.0,True
+T_Q,1.0,True
+ETP_Q,1.0,False

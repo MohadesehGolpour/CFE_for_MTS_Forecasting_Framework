@@ -1,0 +1,61 @@
+{
+  "dataset": "ETTh2",
+  "csv_path": "/content/drive/.shortcut-targets-by-id/1M2PvL-4Tt5h70Xg_IYzTh3SNifk4sipt/Year1_PhD_Codes/02_EDBT/data/Other/ETT-small/ETTh2.csv",
+  "csv_sha256": "a3dc2c597b9218c7ce1cd55eb77b283fd459a1d09d753063f944967dd6b9218b",
+  "feature_cols": [
+    "HUFL",
+    "HULL",
+    "MUFL",
+    "MULL",
+    "LUFL",
+    "LULL",
+    "OT"
+  ],
+  "target_col": "OT",
+  "target_idx": 6,
+  "best_lr": 0.003,
+  "selection_criterion": "original-scale validation MAE, then val RMSE, then scaled val L1",
+  "best_epoch": 4,
+  "best_val_loss_scaled": 0.22206073039640103,
+  "val_mae": 2.573127304293051,
+  "val_rmse": 3.6100372463949175,
+  "configuration": {
+    "input_len": 336,
+    "horizon": 24,
+    "train_ratio": 0.5,
+    "val_ratio": 0.1,
+    "batch_size": 128,
+    "gru_hidden": 100,
+    "gru_layers": 2,
+    "gru_dropout": 0.0,
+    "gru_lrs": [
+      0.0001,
+      0.0003,
+      1e-05,
+      3e-05,
+      0.001,
+      0.003
+    ],
+    "gru_epochs": 80,
+    "patience": 10,
+    "min_delta": 1e-05,
+    "seed": 42,
+    "num_workers": 0,
+    "device": "cuda"
+  },
+  "train_range": [
+    0,
+    8710
+  ],
+  "val_range": [
+    8350,
+    10452
+  ],
+  "test_range": [
+    10092,
+    17420
+  ],
+  "train_windows": 8350,
+  "val_windows": 1742,
+  "test_windows": 6968
+}

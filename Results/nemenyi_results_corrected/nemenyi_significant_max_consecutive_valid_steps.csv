@@ -1,0 +1,8 @@
+,ForecastCF-target,ForecastCF-exog,COMET-exog,DiffusionCF-target,DiffusionCF-exog,NTD-CFE-exog,GA-exog
+ForecastCF-target,False,False,False,True,True,True,True
+ForecastCF-exog,False,False,False,True,True,True,True
+COMET-exog,False,False,False,True,True,False,False
+DiffusionCF-target,True,True,True,False,False,False,False
+DiffusionCF-exog,True,True,True,False,False,False,True
+NTD-CFE-exog,True,True,False,False,False,False,False
+GA-exog,True,True,False,False,True,False,False

@@ -1,0 +1,9 @@
+{
+  "test_mae": 3.4170590029751815,
+  "test_rmse": 4.627032244720137,
+  "test_r2": 0.8103448770418384,
+  "n_test_windows": 6968,
+  "dataset": "ETTh2",
+  "csv_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\data\\Other\\ETT-small\\ETTh2.csv",
+  "model_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\outputs\\EDBT_public_GRU_resolution_aware_v6\\datasets\\ETTh2\\best_gru_forecaster.pth"
+}

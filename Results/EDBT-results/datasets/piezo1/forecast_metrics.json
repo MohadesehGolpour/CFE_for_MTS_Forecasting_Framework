@@ -1,0 +1,9 @@
+{
+  "test_mae": 0.3897388865042012,
+  "test_rmse": 0.5107226025572799,
+  "test_r2": 0.404951110235962,
+  "n_test_windows": 4347,
+  "dataset": "piezo1",
+  "csv_path": "c:\\Users\\golpour\\Desktop\\Mo\\LitRev\\1\\All_Piezos\\data\\piezos\\piezo1.csv",
+  "model_path": "c:\\Users\\golpour\\Desktop\\Mo\\LitRev\\1\\All_Piezos\\outputs\\piezo_multi_notebook_run\\datasets\\piezo1\\best_gru_forecaster.pth"
+}

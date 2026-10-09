@@ -1,0 +1,37 @@
+\begin{table*}[t]
+\centering
+\caption{Individual time-series dataset characteristics computed using a common target-specific train-only protocol.}
+\label{tab:dataset_characteristics_full}
+\scriptsize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{@{}llrrccccc@{}}
+\toprule
+Dataset & Sampling & $M$ & $T$ & Seasonality & Trend & Noise & ADF $p$ & Target \\
+\midrule
+piezo1 & 1 day & 4 & 10,865 & Med.-high & Medium & High & 7.79e-05 & level \\
+piezo2 & 1 day & 4 & 18,074 & Low & High & Low & 0.242 & level \\
+piezo3 & 1 day & 4 & 10,874 & High & Medium & Medium & 0.000139 & level \\
+piezo4 & 1 day & 4 & 10,766 & Med.-high & High & Low & 0.806 & level \\
+piezo5 & 1 day & 4 & 9,129 & Med.-high & Med.-high & High & 0.00341 & level \\
+piezo6 & 1 day & 4 & 21,036 & Medium & High & Low & 0.893 & level \\
+piezo7 & 1 day & 4 & 18,082 & Medium & High & Low & 0.0342 & level \\
+piezo8 & 1 day & 4 & 10,796 & High & Med.-high & Medium & 0.0004 & level \\
+piezo9 & 1 day & 4 & 20,727 & Low & High & Low & 0.948 & level \\
+piezo11 & 1 day & 4 & 21,386 & Low & High & Low & 0.978 & level \\
+piezo12 & 1 day & 4 & 21,382 & Med.-high & High & Low & 0.679 & level \\
+piezo13 & 1 day & 4 & 8,703 & Medium & High & Medium & 0.101 & level \\
+piezo14 & 1 day & 4 & 10,402 & Low & High & Medium & 0.0617 & level \\
+piezo15 & 1 day & 4 & 8,845 & Low & High & Medium & 0.218 & level \\
+piezo16 & 1 day & 4 & 7,530 & Low & Low & High & 1.46e-07 & level \\
+piezo17 & 1 day & 4 & 10,673 & Medium & High & Low & 0.322 & level \\
+piezo18 & 1 day & 4 & 8,747 & Med.-high & High & Low & 0.289 & level \\
+\midrule
+ETTh1 & 1 hour & 7 & 17,420 & Medium & High & Low & 1.5e-05 & OT \\
+ETTh2 & 1 hour & 7 & 17,420 & Med.-high & High & Low & 2.83e-05 & OT \\
+Weather & 10 min & 21 & 52,704 & High & High & Medium & 5.31e-11 & T (degC) \\
+Electricity & 1 hour & 321 & 26,304 & Med.-high & Med.-high & High & 1.27e-24 & 319 \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\parbox{0.98\textwidth}{\scriptsize \textit{Notes.} Seasonality/trend strengths: Low $<0.20$, Medium $[0.20,0.40)$, Med.--high $[0.40,0.70)$, High $\geq0.70$. Residual-to-target variance ratio: Low $<0.10$, Medium $[0.10,0.30)$, High $\geq0.30$. Seasonal periods are annual for daily BRGM and daily for the public datasets. ADF $p$ tests the unit-root null and does not establish stationarity or nonstationarity on its own.}
+\end{table*}

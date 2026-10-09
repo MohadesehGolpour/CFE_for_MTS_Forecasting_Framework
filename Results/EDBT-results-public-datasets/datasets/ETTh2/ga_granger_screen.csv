@@ -1,0 +1,7 @@
+feature,granger_pvalue,ga_selected
+HUFL,1.0,True
+HULL,1.0,True
+MUFL,1.0,False
+MULL,1.0,False
+LUFL,1.0,False
+LULL,1.0,False

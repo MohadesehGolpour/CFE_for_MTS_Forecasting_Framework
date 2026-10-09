@@ -1,0 +1,9 @@
+{
+  "test_mae": 0.8778984242244001,
+  "test_rmse": 1.303872952939495,
+  "test_r2": 0.9707802394877384,
+  "n_test_windows": 21082,
+  "dataset": "Weather",
+  "csv_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\data\\Other\\weather\\weather_cleaned.csv",
+  "model_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\outputs\\EDBT_public_GRU_resolution_aware_v6\\datasets\\Weather\\best_gru_forecaster.pth"
+}

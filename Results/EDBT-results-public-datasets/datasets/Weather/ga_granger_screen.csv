@@ -1,0 +1,21 @@
+feature,granger_pvalue,ga_selected
+p (mbar),1.0,True
+Tpot (K),1.0,True
+Tdew (degC),1.0,False
+rh (%),1.0,False
+VPmax (mbar),1.0,False
+VPact (mbar),1.0,False
+VPdef (mbar),1.0,False
+sh (g/kg),1.0,False
+H2OC (mmol/mol),1.0,False
+rho (g/m**3),1.0,False
+wv (m/s),1.0,False
+max. wv (m/s),1.0,False
+wd (deg),1.0,False
+rain (mm),1.0,False
+raining (s),1.0,False
+SWDR (W/m�),1.0,False
+PAR (�mol/m�/s),1.0,False
+max. PAR (�mol/m�/s),1.0,False
+Tlog (degC),1.0,False
+OT,1.0,False

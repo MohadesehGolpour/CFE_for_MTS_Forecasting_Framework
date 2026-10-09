@@ -1,0 +1,9 @@
+{
+  "test_mae": 84.89826700282086,
+  "test_rmse": 126.34238774426679,
+  "test_r2": 0.7937506376560344,
+  "n_test_windows": 10522,
+  "dataset": "Electricity",
+  "csv_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\data\\Other\\electricity\\electricity.csv",
+  "model_path": "C:\\Users\\golpour\\Desktop\\Mo\\LitRev\\2_EDBT\\outputs\\EDBT_public_GRU_resolution_aware_v6\\datasets\\Electricity\\best_gru_forecaster.pth"
+}

@@ -1,0 +1,5 @@
+test_mae,test_rmse,test_r2,n_test_windows,dataset,csv_path,model_path
+84.89826700282086,126.34238774426679,0.7937506376560344,10522,Electricity,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\data\Other\electricity\electricity.csv,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\outputs\EDBT_public_GRU_resolution_aware_v6\datasets\Electricity\best_gru_forecaster.pth
+2.226502683479971,2.764772854611444,0.5160976886173894,6968,ETTh1,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\data\Other\ETT-small\ETTh1.csv,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\outputs\EDBT_public_GRU_resolution_aware_v6\datasets\ETTh1\best_gru_forecaster.pth
+3.4170590029751815,4.627032244720137,0.8103448770418384,6968,ETTh2,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\data\Other\ETT-small\ETTh2.csv,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\outputs\EDBT_public_GRU_resolution_aware_v6\datasets\ETTh2\best_gru_forecaster.pth
+0.8778984242244001,1.303872952939495,0.9707802394877384,21082,Weather,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\data\Other\weather\weather_cleaned.csv,C:\Users\golpour\Desktop\Mo\LitRev\2_EDBT\outputs\EDBT_public_GRU_resolution_aware_v6\datasets\Weather\best_gru_forecaster.pth

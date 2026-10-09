@@ -1,0 +1,10 @@
+metric,paper_label,better_direction
+validity_ratio,Validity ratio,higher
+stepwise_validity_auc,Prefix validity,higher
+consecutive_valid_steps,Prefix valid steps,higher
+max_consecutive_valid_steps,Maximum consecutive valid steps,higher
+distance_to_band,Distance to band,lower
+proximity_l2_scaled,Scaled L2 proximity,lower
+proximity_l1_scaled,Scaled L1 proximity,lower
+sparsity_ratio,Sparsity ratio,lower
+runtime_sec,Runtime,lower

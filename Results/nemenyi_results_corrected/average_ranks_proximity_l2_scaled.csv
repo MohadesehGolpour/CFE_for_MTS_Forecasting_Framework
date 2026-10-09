@@ -1,0 +1,8 @@
+method,average_rank
+NTD-CFE-exog,2.2857142857142856
+ForecastCF-target,2.4761904761904763
+DiffusionCF-target,3.0
+GA-exog,3.8095238095238093
+COMET-exog,4.380952380952381
+ForecastCF-exog,6.0
+DiffusionCF-exog,6.0476190476190474

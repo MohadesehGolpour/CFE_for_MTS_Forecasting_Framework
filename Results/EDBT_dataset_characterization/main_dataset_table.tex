@@ -1,0 +1,21 @@
+\begin{table*}[t]
+\centering
+\caption{Characteristics of the 17 BRGM piezometric series and four public multivariate forecasting datasets. BRGM statistics summarize the 17 separate series; all seasonality, trend and residual-noise scores are computed on the chosen training target.}
+\label{tab:dataset_characteristics}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Dataset & Sampling & $M$ & $T$ & Seasonality & Trend & Residual ratio \\
+\midrule
+BRGM piezometers ($n=17$) & 1 day & 4 & 7,530--21,386 & 0.35 & 0.90 & 0.09 \\
+\midrule
+ETTh1 & 1 hour & 7 & 17,420 & 0.33 & 0.92 & 0.08 \\
+ETTh2 & 1 hour & 7 & 17,420 & 0.61 & 0.92 & 0.07 \\
+Weather & 10 min & 21 & 52,704 & 0.78 & 0.82 & 0.11 \\
+Electricity & 1 hour & 321 & 26,304 & 0.41 & 0.58 & 0.32 \\
+\bottomrule
+\end{tabular}
+\vspace{1mm}
+\parbox{0.98\textwidth}{\scriptsize \textit{Notes.} $M$: numeric variables excluding date; $T$: full-series observations. BRGM $M$/$T$ are ranges and reported STL scores are medians. STL is fitted on the last at most 6,000 observations of the first 50\% of each target series; ADF uses at most 5,000 training observations. BRGM uses an annual STL cycle (365 days); the public series use daily cycles determined from their recorded timestamps. Residual ratio is $\mathrm{Var}(R)/\mathrm{Var}(y)$, not directly observed physical measurement noise. Electricity scores concern target column 319 in the anonymized benchmark CSV, while $M=321$ describes all client series. The original meter identifier for this column has not been verified.}
+\end{table*}
