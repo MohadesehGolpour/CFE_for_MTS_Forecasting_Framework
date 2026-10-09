@@ -76,7 +76,7 @@ to edit local Windows/macOS/Google Drive paths.
 the selected GRU checkpoints, aggregate CF results, statistical outputs, and
 correlation-analysis outputs.
 
-Most of the qualitative per-dataset CF plots were omitted from the supplied copy
+A subset of qualitative per-dataset CF plots was omitted from the supplied copy
 to keep the artifact size manageable. The aggregate CSV files used for the paper
 are retained.
 
