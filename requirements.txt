@@ -1,0 +1,17 @@
+# Versions recorded directly from executed notebooks where available.
+numpy==2.4.4
+pandas==3.0.3
+scipy==1.17.1
+matplotlib==3.10.9
+statsmodels==0.15.0
+scikit-posthocs==0.17.0
+
+# Exact historical versions were not recorded in the supplied notebooks.
+scikit-learn>=1.5,<2.0
+tqdm>=4.66,<5.0
+jupyterlab>=4.0,<5.0
+ipykernel>=6.0,<8.0
+
+# Public-GRU notebook reported PyTorch 2.11.0+cu128.
+# Install a CUDA-specific build appropriate for the reproduction machine if needed.
+torch==2.11.0
